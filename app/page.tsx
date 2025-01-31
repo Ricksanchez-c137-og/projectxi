@@ -94,7 +94,7 @@ Securing digital infrastructures while optimizing operations through automation.
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
                 title="Web Application Penetration Testing Lab"
-                description="I developed and tested a series of web applications using TypeScript, React, Next.js, and Tailwind CSS, serving as a research platform for security and penetration testing. Through comprehensive testing, I identified and exploited vulnerabilities such as SQL injection, XSS, and privilege escalation to assess defense mechanisms. This project enhanced my full-stack development skills, deepened my expertise in web security, and strengthened my analytical approach to secure software development."
+                description="I designed, developed, and rigorously tested a series of web applications leveraging TypeScript, React, Next.js, and Tailwind CSS—both to deliver dynamic user experiences and to serve as a research platform for security and penetration testing. Using specialized tools like BurpSuite, I performed comprehensive assessments that uncovered and exploited critical vulnerabilities such as SQL injection, cross-site scripting (XSS), and privilege escalation. This process not only evaluated and strengthened the applications’ defense mechanisms, but also significantly deepened my expertise in full-stack development and web security, solidifying a secure-by-design approach that informs every stage of my software development lifecycle."
                 image="/burp.png?height=400&width=600"
                 link="https://github.com"
                 tags={["ELK Stack", "Python", "SIEM", "Burpsuite", "OWASP"]}
