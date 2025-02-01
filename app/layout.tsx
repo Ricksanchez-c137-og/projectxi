@@ -8,9 +8,9 @@ import type React from "react" // Import React
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "SecOps.dev - SOC Analyst & DevOps Engineer",
+  title: "Mohamed Nofal",
   description:
-    "SOC Analyst and DevOps Engineer portfolio showcasing security projects and infrastructure automation skills",
+    "V A X E N E is a Cybersecurity engineer ,DevOps Engineer challange designer based in the UAE",
 }
 
 export default function RootLayout({
