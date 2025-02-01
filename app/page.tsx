@@ -6,6 +6,7 @@ import Link from "next/link"
 import ContactForm from "@/components/contact-form"
 import ProjectCard from "@/components/project-card"
 import TechStack from "@/components/tech-stack"
+import Certs from "@/components/certs"
 
 export default function Page() {
   return (
@@ -14,7 +15,7 @@ export default function Page() {
         <div className="container flex h-14 items-center">
           <div className="mr-4 hidden md:flex">
             <Link className="mr-6 flex items-center space-x-2" href="/">
-              <span className="hidden font-bold sm:inline-block">V A X E N E </span>
+              <span className="hidden font-bold sm:inline-block">Mohamed Nofal</span>
             </Link>
             <nav className="flex items-center space-x-6 text-sm font-medium">
               <Link href="#about" className="transition-colors hover:text-foreground/80">
@@ -154,6 +155,15 @@ Securing digital infrastructures while optimizing operations through automation.
             </h2>
             <TechStack />
           </div>
+        </section>
+        <section className="py-12 md:py-24 lg:py-32">
+          <div className="container px-4 md:px-6">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">
+                  Certifications
+              </h2>
+              <Certs/>
+          </div>
+
         </section>
 
         <section id="contact" className="py-12 md:py-24 lg:py-32">
