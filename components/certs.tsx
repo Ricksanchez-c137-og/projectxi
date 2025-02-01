@@ -1,6 +1,4 @@
 import { Card } from "@/components/ui/card"
-import { describe } from "node:test"
-
 const technologies = [
   {
     category: "OSCP",
